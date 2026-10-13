@@ -3,7 +3,7 @@
 Reference
 =========
 
-Reference provides technical details. It describes the interfaces of ``cantools``: the Python API (classes and functions) and the command line interface (commands, arguments, options, input and output).
+Description of the public interfaces of ``cantools``: the Python API and the command line interface.
 
 Python API Reference
 --------------------
@@ -23,4 +23,3 @@ CLI Reference
    :maxdepth: 1
 
    cli/commands
-   

@@ -1,5 +1,7 @@
-cantools.database
-=================
+Database
+========
+
+Functions, classes and exceptions of ``cantools.database``.
 
 Functions
 ---------
@@ -42,8 +44,12 @@ Classes
 .. autoclass:: cantools.typechecking.Codec
     :members:
 
-Exception
----------
+Exceptions
+----------
 
 .. autoclass:: cantools.database.UnsupportedDatabaseFormatError
     :members:
+
+.. autoclass:: cantools.database.DecodeError
+
+.. autoclass:: cantools.database.EncodeError

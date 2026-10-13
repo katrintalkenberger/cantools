@@ -1,5 +1,7 @@
-cantools.tester
-===============
+Tester
+======
+
+Classes of ``cantools.tester``.
 
 Classes
 -------

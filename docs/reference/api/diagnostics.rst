@@ -1,5 +1,7 @@
-cantools.database.diagnostics
-=============================
+Diagnostics
+===========
+
+Classes of ``cantools.database.diagnostics``.
 
 Classes
 -------

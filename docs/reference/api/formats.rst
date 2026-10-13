@@ -1,5 +1,7 @@
-cantools.database.can.formats
-=============================
+Formats
+=======
+
+Classes and types of ``cantools.database.can.formats``.
 
 Classes
 -------
