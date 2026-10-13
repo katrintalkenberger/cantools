@@ -7,7 +7,7 @@ CAN BUS tools
 =============
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
    how-to/index
    reference/index

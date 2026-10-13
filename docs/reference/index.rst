@@ -3,13 +3,24 @@
 Reference
 =========
 
-Reference provide technical details. They describe public functions and classes of ``cantools``, grouped by module.
+Reference provides technical details. It describes the interfaces of ``cantools``: the Python API (classes and functions) and the command line interface (commands, arguments, options, input and output).
+
+Python API Reference
+--------------------
 
 .. toctree::
    :maxdepth: 1
 
-   database
-   formats
-   diagnostics
-   tester
+   api/database
+   api/formats
+   api/diagnostics
+   api/tester
+
+CLI Reference
+-------------
+
+.. toctree::
+   :maxdepth: 1
+
+   cli/commands
    
