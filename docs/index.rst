@@ -11,10 +11,6 @@ CAN BUS tools
 
    how-to/index
    reference/index
+   explanation/index
 
 .. include:: ../README.rst
-
-
-
-
-
