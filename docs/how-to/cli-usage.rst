@@ -1,6 +1,8 @@
 Command line tool
 =================
 
+The following examples read CAN frames from the virtual CAN interface ``vcan0``; see :doc:`vcan-setup` for how to create it.
+
 The decode subcommand
 ---------------------
 

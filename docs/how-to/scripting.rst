@@ -17,8 +17,7 @@ messages and signals.
     signal('AverageRadius', 6, 6, 'big_endian', False, 0.1, 0, 0.0, 5.0, 'm', False, None, None, ''),
     signal('Temperature', 0, 12, 'big_endian', True, 0.01, 250, 229.53, 270.47, 'degK', False, None, None, None)]
 
-The example continues `encoding`_ a message and sending it on a CAN
-bus using the `python-can`_ package.
+The example continues :meth:`encoding <cantools.database.can.Message.encode>` a message and sending it on a virtual CAN bus (see :doc:`vcan-setup`) using the `python-can`_ package.
 
 .. code-block:: python
 
@@ -28,10 +27,9 @@ bus using the `python-can`_ package.
    >>> message = can.Message(arbitration_id=example_message.frame_id, is_extended_id=example_message.is_extended_frame, data=data)
    >>> can_bus.send(message)
 
-Alternatively, a message can be encoded using the `encode_message()`_
-method on the database object.
+Alternatively, a message can be encoded using the :meth:`~cantools.database.can.Database.encode_message` method on the database object.
 
-The last part of the example receives and `decodes`_ a CAN message.
+The last part of the example receives and :meth:`decodes <cantools.database.can.Database.decode_message>` a CAN message.
 
 .. code-block:: python
 
@@ -45,13 +43,6 @@ See `examples`_ for additional examples.
 
 .. _python-can: https://python-can.readthedocs.io/en/master/
 
-.. _encode_message(): http://cantools.readthedocs.io/en/latest/#cantools.database.can.Database.encode_message
-
-.. _decodes: http://cantools.readthedocs.io/en/latest/#cantools.database.can.Database.decode_message
-
 .. _examples: https://github.com/cantools/cantools/blob/master/examples
 
-.. _encoding: http://cantools.readthedocs.io/en/latest/#cantools.database.can.Message.encode
-
 .. _small DBC-file: https://github.com/cantools/cantools/blob/master/tests/files/dbc/motohawk.dbc
-

@@ -3,11 +3,11 @@
 How-to
 ======
 
-This section includes several "How-to" pieces of content to solve a specific task, without explaining concepts. It assumes basic knowledge and describes only the specific sequence of steps.
+Step-by-step instructions for specific tasks with cantools. Each page assumes basic knowledge of CAN and Python.
 
 .. toctree::
    :maxdepth: 2
 
    cli-usage
    scripting
-   vcan_setup
+   vcan-setup
