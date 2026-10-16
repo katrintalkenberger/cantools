@@ -1,7 +1,7 @@
 Command line tool
 =================
 
-The following examples read CAN frames from the virtual CAN interface ``vcan0``; see :doc:`vcan-setup` for how to create it.
+The following examples read CAN frames from the virtual CAN interface ``vcan0``; see :doc:`vcan-setup` for how to create it. All examples use Linux tools (``candump`` from ``can-utils`` and ``SocketCAN``).
 
 The decode subcommand
 ---------------------
