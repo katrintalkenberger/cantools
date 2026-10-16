@@ -9,9 +9,9 @@ CAN BUS tools
 .. toctree::
    :maxdepth: 3
 
+   tutorials/index
    how-to/index
    reference/index
    explanation/index
-   tutorials/index
 
 .. include:: ../README.rst
