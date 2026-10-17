@@ -1,7 +1,11 @@
-|github-actions| |coverage|
-
 About
 =====
+
+.. note::
+
+   This fork restructures the documentation of ``cantools`` according to the
+   `Diátaxis <https://diataxis.fr>`_ framework. The original project is
+   https://github.com/cantools/cantools.
 
 ``cantools`` is a Python 3 library and command line tool for working with
 Controller Area Network (CAN) bus data. It parses network databases, encodes
@@ -38,34 +42,20 @@ Installation
 Documentation
 =============
 
-The documentation at https://cantools.readthedocs.io is organized in four parts:
+The documentation at https://cantools-diataxis.readthedocs.io is organized in four parts:
 
-- `Tutorials <https://cantools.readthedocs.io/en/latest/tutorials/index.html>`_:
+- `Tutorials <https://cantools-diataxis.readthedocs.io/en/latest/tutorials/index.html>`_:
   install ``cantools`` and decode and encode a first CAN frame.
 
-- `How-to <https://cantools.readthedocs.io/en/latest/how-to/index.html>`_:
+- `How-to <https://cantools-diataxis.readthedocs.io/en/latest/how-to/index.html>`_:
   solve specific tasks, such as decoding ``candump`` output, scripting
   with the Python API and setting up a virtual CAN interface.
 
-- `Reference <https://cantools.readthedocs.io/en/latest/reference/index.html>`_:
+- `Reference <https://cantools-diataxis.readthedocs.io/en/latest/reference/index.html>`_:
   Python API and command line interface.
 
-- `Explanation <https://cantools.readthedocs.io/en/latest/explanation/index.html>`_:
+- `Explanation <https://cantools-diataxis.readthedocs.io/en/latest/explanation/index.html>`_:
   how CAN databases describe messages and how ``cantools`` is built.
-
-.. |github-actions| image:: https://github.com/cantools/cantools/actions/workflows/pythonpackage.yml/badge.svg?branch=master
-   :target: https://github.com/cantools/cantools/actions/workflows/pythonpackage.yml
-   :alt: Github Actions workflow status
-
-.. |coverage| image:: https://coveralls.io/repos/github/cantools/cantools/badge.svg?branch=master
-   :target: https://coveralls.io/github/cantools/cantools?branch=master
-   :alt: Test coverage reports on Coveralls.io
-
-.. _DBC: http://www.socialledge.com/sjsu/index.php?title=DBC_Format
-
-.. _KCD: https://github.com/julietkilo/kcd
-
-.. _tester: http://cantools.readthedocs.io/en/latest/#cantools.tester.Tester
 
 Contributing and license
 ========================
@@ -73,3 +63,9 @@ Contributing and license
 Contributions are welcome. Read `CONTRIBUTING.rst <https://github.com/cantools/cantools/blob/master/CONTRIBUTING.rst>`_ before opening a pull request, and follow the `coding style <https://github.com/cantools/cantools/blob/master/CODING_STYLE.rst>`_.
 
 ``cantools`` is released under the `MIT license <https://github.com/cantools/cantools/blob/master/LICENSE>`_.
+
+.. _DBC: http://www.socialledge.com/sjsu/index.php?title=DBC_Format
+
+.. _KCD: https://github.com/julietkilo/kcd
+
+.. _tester: https://cantools-diataxis.readthedocs.io/en/latest/reference/api/tester.html#cantools.tester.Tester
