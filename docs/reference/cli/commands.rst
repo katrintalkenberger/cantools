@@ -1,5 +1,5 @@
-CLI Reference
-=============
+Command line interface
+======================
 
 The ``cantools`` command provides utilities for CAN bus data. It consists of subcommands that are selected by name. Each subcommand has its own arguments and options.
 

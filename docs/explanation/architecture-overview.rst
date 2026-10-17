@@ -6,7 +6,7 @@ Architecture overview
 .. figure:: images/cantools-architecture.svg
    :alt: Overview of cantools. Database files (DBC, KCD, SYM, ARXML, CDD) are loaded into Python objects. The objects encode signal values into CAN frames and decode frames into signal values. The command line tool uses the same objects.
    :width: 100%
-   :target: images/cantools-architecture.svg
+   :target: ../_images/cantools-architecture.svg
 
    Overview of cantools. The colors are explained in the legend. Select the image to enlarge it.
 
