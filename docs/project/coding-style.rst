@@ -1,0 +1,1 @@
+.. include:: ../../CODING_STYLE.rst

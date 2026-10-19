@@ -8,10 +8,18 @@ CAN BUS tools
 
 .. toctree::
    :maxdepth: 2
+   :caption: User documentation
 
    tutorials/index
    how-to/index
    reference/index
    explanation/index
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Project
+
+   project/contributing
+   project/coding-style   
 
 .. include:: ../README.rst
