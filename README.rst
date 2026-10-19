@@ -60,9 +60,13 @@ The documentation at https://cantools-diataxis.readthedocs.io is organized in fo
 Contributing and license
 ========================
 
-Contributions are welcome. Read `CONTRIBUTING.rst <https://github.com/cantools/cantools/blob/master/CONTRIBUTING.rst>`_ before opening a pull request, and follow the `coding style <https://github.com/cantools/cantools/blob/master/CODING_STYLE.rst>`_.
+Guidelines for contributions are in `CONTRIBUTING.rst
+<https://github.com/katrintalkenberger/cantools/blob/HEAD/CONTRIBUTING.rst>`_.
+The code follows the `coding style
+<https://github.com/katrintalkenberger/cantools/blob/HEAD/CODING_STYLE.rst>`_.
 
-``cantools`` is released under the `MIT license <https://github.com/cantools/cantools/blob/master/LICENSE>`_.
+``cantools`` is released under the `MIT license
+<https://github.com/katrintalkenberger/cantools/blob/HEAD/LICENSE>`_.
 
 .. _DBC: http://www.socialledge.com/sjsu/index.php?title=DBC_Format
 
