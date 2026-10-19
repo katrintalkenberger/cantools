@@ -1,6 +1,9 @@
 Contributing
 ============
 
+Code Contributions
+------------------
+
 #. Fork the repository.
 
 #. Install prerequisites. You can skip this if you use `tox`_.
@@ -44,3 +47,23 @@ Contributing
 #. Create a pull request.
 
 .. _tox: http://tox.readthedocs.org/
+
+Documentation Contributions
+---------------------------
+
+To build the documentation, Sphinx and the ``cantools`` package must both be
+installed. ``docs/conf.py`` reads the package version from the installed
+package.
+
+.. code-block:: text
+
+   python3 -m pip install -e . -r docs/requirements.txt
+
+Build the documentation with Sphinx:
+
+.. code-block:: text
+
+   python3 -m sphinx -b html docs docs/_build/html
+
+Open ``docs/_build/html/index.html`` in a browser to check the result.
+
