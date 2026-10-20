@@ -215,7 +215,7 @@ The following ``fmt`` characters can be combined (see the `matplotlib.pyplot.plo
 
 .. option:: -q, --quiet
 
-   Don't print any error messages. This is an abbreviation for all --ignore-* options.
+   Don't print any error messages. This is an abbreviation for all ``--ignore-*`` options.
 
 .. option:: -o OUTPUT_FILE, --output-file OUTPUT_FILE
 
@@ -239,7 +239,7 @@ The following ``fmt`` characters can be combined (see the `matplotlib.pyplot.plo
 
 .. option:: -ac, --auto-color-ylabels
 
-   This is equivalent to applying --color C0 to the first y-axis, --color C1 to the second and so on.
+   This is equivalent to applying ``--color C0`` to the first y-axis, ``--color C1`` to the second and so on.
 
 .. option:: --prune
 
