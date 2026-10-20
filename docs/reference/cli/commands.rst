@@ -199,7 +199,7 @@ The following ``fmt`` characters can be combined (see the `matplotlib.pyplot.plo
 
 .. option:: -s, --show-errors
 
-   Show all error messages in the plot. This is an abbreviation for all --show-* options. This implies -l.
+   Show all error messages in the plot. This is an abbreviation for all ``--show-*`` options. This implies -l.
 
 .. option:: --ignore-invalid-syntax
 
@@ -321,7 +321,7 @@ Monitor CAN bus traffic in a text based user interface.
 
 .. option:: --prune
 
-   Refrain from shortening the names of named signal values.
+   Try to shorten the names of named signal choices.
 
 .. option:: --no-strict
 
